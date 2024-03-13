@@ -1,66 +1,71 @@
 # Brawlstars
-> Tongji University 2022年高级程序设计课程大项目
-荒野乱斗 Brawlstars
+> Tongji University Advanced Programming Course Major Project 2022
+> 
+> 荒野乱斗 Brawlstars
 
-## 简介
+## Authors
+[**WinstonLiyt**](https://github.com/WinstonLiyt)
 
-《荒野乱斗》
-模拟了Supercell制作的多人实时对战手游，
-玩家通过击杀神兽得以升级、获得Buff加成，
-最终与各方NPC进行决斗比拼，争夺荒野皇冠！
+[**Wrderly**](https://github.com/Wrderly)
 
-## 开发环境
+[**Soukupp**](https://github.com/Soukupp)
 
-- 操作系统：Windows
-- 选用引擎：Cocos2d-x 3.17.2
-- 辅助软件：Tiled 地图编辑器 1.8.4、TexturePackerGUI、Adobe Photoshop CC 2018
-- 开发语言：c++
-- 开发平台：Visual Studio 2022
+## Introduction
 
-## 游戏说明
+"Brawlstars" simulates the multiplayer real-time battle mobile game produced by Supercell. Players level up and gain Buff boosts by killing mythical beasts, ultimately dueling with various NPCs to compete for the wilderness crown!
 
-- 点开Brawlstars.exe
-- 通过加载界面后进入游戏主菜单
-- 玩家可以通过主菜单右上角信息UI查看相关游戏说明
-- 玩家可以通过主菜单左上角用户信息UI查看玩家信息
-- 点击MAP，选择地图模式（经典模式与地形战争）
-- 点击MAP，选择游戏模式（常规模式与无敌模式）
-- 点击MAP，选择游戏NPC人数（5-9）
-- 点击HERO，选择游戏使用英雄（Winston，Wrderly，Pearl，Soren）
-- 点击HERO，玩家可以通过界面右上方UI查看神兽与各英雄介绍
-- 点击SETTINGS，调节音量
-- 点击SETTINGS，可以重置用户比赛信息
-- 点击START，开始游戏
-- 在游戏地图中击杀神兽后，英雄升级、回复一定血量，并可能获得攻击/防御Buff
-- 在游戏地图中击杀AI，击杀数+1，等级上升，排名向前一位
-- 在游戏地图中，有障碍物处，任何英雄无法到达
-- 在游戏地图中的树丛中，玩家和NPC都将隐身，只有在对方一定范围内时，隐身才会失效
-- 游戏开始30s后，安全区缩小，安全区外生成毒雾，若英雄在毒物区域将会不断掉血
-- 在游戏地图中，会有几处传送阵，可传送到荒野的另一角
-- 在游戏过程中，也可以点击界面右上角的设置UI，进行音量上的调节亦或是游戏的暂停
-- 在游戏过程中，可以点击右下角的退出UI，退出游戏，前往游戏结算界面
-- 在玩家被击杀或是击杀了其他所有NPC后，游戏结算，前往游戏结算界面
-- 在游戏结束界面，点击右下角返回图标，返回主菜单
+## Development Environment
 
-## 操作说明
+- **Operating System:** Windows
+- **Chosen Engine:** Cocos2d-x 3.17.2
+- **Auxiliary Software:** Tiled Map Editor 1.8.4, TexturePackerGUI, Adobe Photoshop CC 2018
+- **Programming Language:** C++
+- **Development Platform:** Visual Studio 2022
 
-- 上：W/PgUp
-- 下：S/PgDn
-- 左：A/Home
-- 右：D/End
-- 普通攻击（ATTACK）鼠标左键点击
-- 英雄技能（SKILL）三次普通攻击命中敌人后（蓄力），下一次普通攻击为大招
+## Game Instructions
 
-## 英雄与神兽说明
+- Open Brawlstars.exe.
+- Enter the main menu after the loading screen.
+- Players can check game instructions via the information UI in the top right corner of the main menu.
+- Players can view player information through the user info UI in the top left corner of the main menu.
+- Click on MAP, choose map mode (Classic Mode and Terrain War).
+- Click on MAP, choose game mode (Regular Mode and Invincible Mode).
+- Click on MAP, select the number of game NPCs (5-9).
+- Click on HERO, select the hero for the game (Winston, Wrderly, Pearl, Soren).
+- Click on HERO, players can view introductions to mythical beasts and each hero via the UI in the top right corner.
+- Click on SETTINGS, adjust the volume.
+- Click on SETTINGS, reset user match information.
+- Click START to begin the game.
+- After killing mythical beasts on the game map, the hero levels up, recovers a certain amount of health, and may gain attack/defense Buffs.
+- Killing AI on the game map increases kill count by 1, level up, and advance in ranking.
+- In areas with obstacles on the game map, no hero can reach.
+- In bushes on the game map, both players and NPCs become invisible, and invisibility only wears off when they are within a certain range of each other 30s after the game starts, the safe zone shrinks, and poison fog is generated outside the safe zone. Heroes will continuously lose health if they are in the poison area.
+- There are several teleportation circles on the game map, which can transport to another corner of the wilderness.
+- During the game, you can also click on the settings UI in the top right corner to adjust the volume or pause the game.
+- During the game, you can click on the exit UI in the bottom right corner to exit the game and go to the game settlement screen.
+- When a player is killed or kills all other NPCs, the game settles and moves to the game settlement screen.
+- On the game ending screen, click the return icon in the bottom right corner to go back to the main menu.
 
-- 不同的英雄会有不同的血量，攻击力、防御力、普通攻击倍率、技能倍率和相同的蓝条
-- 不同种类的神兽拥有不同的血量，也会有不同的Buff加成效果
+## Operation Instructions
 
-## 游戏特点
+- Up: W/PgUp.
+- Down: S/PgDn.
+- Left: A/Home.
+- Right: D/End.
+- Normal Attack (ATTACK) by left-clicking the mouse.
+- Hero Skill (SKILL) after hitting an enemy with three normal attacks (charging), the next normal attack will be a special move.
 
-- 本游戏具有非常多样化的音乐与动画效果
-- 本游戏可以给予玩家较大的操作空间
-- 本游戏还存在着一些小彩蛋等着大家前来挖掘~
+## Heroes and Mythical Beasts Description
 
-## 备注
-- 各位玩家在第一次运行本游戏前，最好在电脑中安装一下Resources文件夹里的相关特殊字体，并重启电脑（经测试有的电脑可能存在无法加载游戏内部分字体的情况），麻烦啦~
+- Different heroes have different health, attack power, defense power, normal attack multipliers, skill multipliers, and the same amount of mana.
+.- Different types of mythical beasts have different health and different Buff enhancement effects
+
+## Game Features
+
+- The game has a very diverse range of music and animation effects.
+- The game offers players a large amount of operational space.
+- The game also contains some Easter eggs waiting for everyone to discover~
+
+## Note
+
+- Before running the game for the first time, players are advised to install the special fonts contained in the Resources folder on their computer and restart the computer (as tested, some computers may have issues loading some fonts within the game). Thank you for your cooperation!
